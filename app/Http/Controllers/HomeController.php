@@ -23,6 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        //I have changed the route to a user directory
+        return view('user.home');
     }
 }
